@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  
+}
+
+.clearfix {
+  *zoom: 1;
+
+  &::after {
+    clear: both;
+  }
+
+  &::before,
+  &::after {
+    content: ' ';
+    display: table;
+  }
+}
