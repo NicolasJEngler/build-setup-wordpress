@@ -5,7 +5,7 @@
 
 This setup uses `Gulp` for task management, with the aid of `PostCSS` + `Sass` for CSS-related tasks.
 
-The Gulpfile has 4 tasks available 9:
+The Gulpfile has 4 tasks available:
 * `css`: uses `PostCSS` + `cssnext` for prefixing and future CSS, and `Sass` as an aid. It also concatenates all CSS files into `all.css` inside `./styles/dist/`, and minifies the result
 * `scripts`: this task is meant to grab all files inside the array of the task's `src` and concatenates them into `all.js` inside `./js/dist` and minifies it
 * `clean`: this task deletes everything inside both of the `dist` folders
